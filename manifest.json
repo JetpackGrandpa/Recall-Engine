@@ -1,0 +1,21 @@
+{
+    "manifest_version":3,
+    "name":"Recall Engine",
+    "description":"The Recall Engine memorizes the contents of the videos in your Unlisted/Public YouTube playlist and recalls when it is Removed/Privatized.",
+    "version":"1.0.0",
+    "author":"Narendra Prasath",
+    "icons":{
+        "16":"images/ReEng-16.png",
+        "48":"images/ReEng-48.png",
+        "128":"images/ReEng-128.png"
+    },
+    "action":{
+        "default_icon":"images/ReEngVV-16.png",
+        "default_title":"Recall Engine",
+        "default_popup":"popup.html",
+        "css":"popup.css"
+    },
+    "permissions": [
+        "https://www.google.com/*"
+    ]
+}
