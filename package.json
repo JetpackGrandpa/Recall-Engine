@@ -1,0 +1,32 @@
+{
+  "name": "recall-e",
+  "version": "1.0.0",
+  "description": "Youtube Playlist Videos: Lost and Found!",
+  "main": "popup.js",
+  "scripts": {
+    "build": "browserify popup.js -o bundle.js"
+  },
+  "keywords": [
+    "Youtube",
+    "Playlist",
+    "private",
+    "removed",
+    "videos",
+    "RecallEngine",
+    "Extension"
+  ],
+  "author": "Narendraprasath",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.4",
+    "node-fetch": "^3.3.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0"
+  }
+}
