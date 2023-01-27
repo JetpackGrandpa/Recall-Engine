@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <h1>Recall Engine</h1>
     <link rel="stylesheet" href="popup.css">
 </head>
+
+<script src="popup.js"></script>
 <body>
-    <form action="http://localhost/db1/script.php" method="POST" >
-        <input type="text" name="PLid" id="playID" placeholder="Enter PlayList's ID"></input>
-        <button id="playIDb">Get Details</button>
+        <input type="text" name="username" id="username" placeholder="Enter Username" required><br>
+        <input type="password" name="paswrd" id="paswrd" placeholder="Enter Password" required><br>
+        <input type="text" name="playID" id="playID" placeholder="Enter PlayList's ID" required><br>
+        <input type="submit" name="playIDb" id="playIDb" value="GetDetails">
         <script src="popup.js"></script>
     
-        <div class="playlist"></div>
+        <div class="playlist"></div> 
         <script src="popup.js"></script>
-    </form>
 </body>
 </html>
+
